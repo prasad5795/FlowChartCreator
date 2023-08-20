@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+}
+
+.sidebar .description {
+  margin-bottom: 10px;
+}
+
+.draggablesidebarnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.draggablesidebarnode.input {
+  border-color: #0041d0;
+}
+
+.draggablesidebarnode.output {
+  border-color: #ff0072;
+}
+/* 
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+} */
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+.submit {
+  margin-left: 10px;
+  
+}
