@@ -12,7 +12,7 @@ const nodeTypes = {
 };
 
 // let id = 0;
-const getId = (id = 0) => `dndnode_${(id += 1)}`;
+const getId = (id = 0) => `${new Date().valueOf()}`;
 
 export const CanvasComponent = () => {
   const reactFlowWrapper = useRef<any>(null);
